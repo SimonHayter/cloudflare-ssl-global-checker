@@ -128,3 +128,7 @@ If the token has been rolled, has expired or has lost its permissions, the scrip
 - Tokens are never written to disk in plain text and are never printed.
 - The saved tokens can't be decrypted from another Windows user account or another PC. If you move to a new machine, add the accounts again.
 - When you remove an account, the script deletes its saved token. Remember to also delete or roll the token in Cloudflare if you no longer need it.
+
+## License
+
+[MIT](LICENSE)

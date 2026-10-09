@@ -144,7 +144,7 @@ function Save-Accounts {
 }
 
 function Add-Account {
-    $name = Read-Line 'Name for this account (e.g. BYBE)'
+    $name = Read-Line 'Name for this account (e.g. My Account)'
     if (-not $name) { Write-Host 'Cancelled.' -ForegroundColor Yellow; return }
 
     $sec = Read-Host "API token for '$name'" -AsSecureString
